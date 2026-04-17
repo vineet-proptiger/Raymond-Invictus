@@ -50,7 +50,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
           <Image src={popupImage} alt="Invictus by GS" fill className="object-cover" style={{ objectPosition: '30% center' }} sizes="(max-width: 768px) 0vw, 45vw" />
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(26,26,46,0.85) 0%, rgba(26,26,46,0.1) 60%)' }} />
           <div className="absolute bottom-0 left-0 right-0 p-5 text-white z-10">
-            <p className="text-[10px] font-semibold tracking-[3px] uppercase opacity-80 mb-1" style={{ fontFamily: F_SANS, color: 'var(--color-gold)' }}>Invictus by GS</p>
+            <p className="text-[10px] font-semibold tracking-[3px] uppercase opacity-80 mb-1" style={{ fontFamily: F_SANS, color: 'var(--color-gold)' }}>Raymond Invictus by GS</p>
             <p style={{ fontFamily: F_JOST, fontSize: '13px', fontWeight: 500, opacity: 0.85 }}>BKC, Bandra Kurla Complex, Mumbai</p>
           </div>
         </div>
@@ -84,7 +84,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 Exclusive Benefits
               </span>
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 leading-snug uppercase tracking-tight" style={{ fontFamily: F_JOST }}>
-                Book A Free Site Visit
+                Hurry! Limited Inventory Available
               </h3>
               <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
                 <span style={{

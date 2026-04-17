@@ -11,7 +11,7 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 const F_SERIF = 'var(--font-serif), Cormorant Garamond, serif'
 
-const PREVIEW_TEXT = `The Gold Collar Life embodies the essence of Invictus by GS, BKC: power, privilege and refined taste. It reflects a world where success speaks and luxury indulges.`
+const PREVIEW_TEXT = `Raymond Invictus by GS is an upscale residential development set within the prestigious Raymond Kalanagar in Bandra East, offering thoughtfully designed 3 & 4 BHK apartments. Crafted for modern urban living, these residences feature expansive layouts, elegant interiors, and spacious balconies that bring in natural light and ventilation. With a limited number of residences per floor, Raymond Invictus ensures enhanced privacy, exclusivity, and a refined living experience in one of Mumbai’s most sought-after neighborhoods.`
 
 const MORE_TEXT = ` Every finish, every space, every detail mirrors the discipline, drive and distinction of those who've built their success, not inherited it. This is living at its sharpest, calmest and most unapologetically elevated.`
 
@@ -287,29 +287,7 @@ const Overview = () => {
               </div>
 
               {/* 4 Features */}
-              <div style={{
-                display: 'grid', gridTemplateColumns: '1fr 1fr',
-                gap: '12px', marginTop: '20px', paddingTop: '18px',
-                borderTop: '1px solid #f0f0f0',
-              }}>
-                {[
-                  'Resort-Themed Lifestyle',
-                  'Art-Deco Inspired Architecture',
-                  'Sunlit, Cross-Ventilated Layouts',
-                  '30+ Lifestyle Indulgence',
-                ].map((feat, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '7px' }}>
-                    <span style={{
-                      width: '6px', height: '6px', borderRadius: '50%',
-                      background: 'var(--color-gold)', flexShrink: 0,
-                    }} />
-                    <span style={{
-                      fontFamily: F_SANS, fontSize: '12px',
-                      color: '#374151', fontWeight: '600', lineHeight: 1.4,
-                    }}>{feat}</span>
-                  </div>
-                ))}
-              </div>
+
 
             </div>
           </div>

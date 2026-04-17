@@ -19,7 +19,7 @@ const units = [
     isPopular: false,
   },
   {
-    type: "4 BHK",
+    type: "3.5 BHK",
     size: "1684 Sq. Ft.*",
     price: "On Request",
     oldPrice: null,

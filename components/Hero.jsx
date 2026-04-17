@@ -84,7 +84,7 @@ const Hero = ({ setIsOpen }) => {
                 fontSize: '10px', fontWeight: '800', color: '#fff',
                 fontFamily: F_JOST, letterSpacing: '0.16em', textTransform: 'uppercase',
               }}>
-                Newly Launched
+                Booking Window Opens
               </span>
             </div>
 
@@ -95,7 +95,7 @@ const Hero = ({ setIsOpen }) => {
               color: '#fff', margin: '0 0 4px',
               lineHeight: 1.0, letterSpacing: '-0.02em',
             }}>
-              Raymond Invictus By Gs
+              Raymond Invictus By Gs Bandra
             </h1>
             <p style={{
               fontFamily: F_SERIF,
@@ -188,7 +188,7 @@ const Hero = ({ setIsOpen }) => {
                   fontFamily: F_JOST, fontSize: '30px',
                   fontWeight: '900', color: GOLD, margin: 0, lineHeight: 1,
                 }}>
-                  ₹ 10.4 Cr Onwards
+                  ₹ 5.5 Cr Onwards
                 </p>
               </div>
             </div>
@@ -270,9 +270,9 @@ const Hero = ({ setIsOpen }) => {
               }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '8px' }}>
                   {[
-                    { label: 'Land', value: '10 Acres' },
-                    { label: 'Floors', value: 'G + 38' },
-                    { label: 'Possession', value: 'Oct 2026' },
+                    { label: 'Land', value: '2 Acres' },
+                    { label: 'Tower', value: '6' },
+                    { label: 'Status', value: 'New Launch' },
                   ].map((s, i) => (
                     <div key={i} style={{
                       textAlign: 'center', padding: '11px 4px',

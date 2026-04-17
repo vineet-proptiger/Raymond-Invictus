@@ -10,7 +10,7 @@ const Footer = () => (
 
     <div style={{ maxWidth: '860px', margin: '0 auto', padding: '56px 24px 32px', textAlign: 'center' }}>
       <h2 style={{ fontSize: '24px', fontWeight: '800', fontFamily: F_JOST, marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.05em' }} data-aos="fade-in">
-       Raymond Invictus by GS
+        Raymond Invictus by GS
       </h2>
       <p style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_JOST, fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
         New Launch — BKC, Mumbai
@@ -20,7 +20,7 @@ const Footer = () => (
       </div>
       <p style={{ fontSize: '15px', color: '#bbb', fontFamily: F_SANS, lineHeight: 1.8, marginBottom: '32px', textAlign: 'justify' }}
         data-aos="fade-in" data-aos-delay="100">
-        Invictus by GS is an ultra-luxury residential development located in the heart of BKC, Mumbai — India&apos;s premier business and lifestyle destination. Offering newly launched 3 &amp; 4 Bed Ultra Luxe Residences, this Art-Deco inspired architectural landmark embodies The Gold Collar Life: power, privilege and refined taste. With resort-themed lifestyle amenities, sunlit cross-ventilated layouts, and 30+ lifestyle indulgences — Invictus by GS is crafted for those who&apos;ve built their success, not inherited it.
+        Raymond Invictus by GS is an ultra-luxury residential development located in the heart of BKC, Mumbai — India&apos;s premier business and lifestyle destination. Offering newly launched 3 &amp; 4 Bed Ultra Luxe Residences, this Art-Deco inspired architectural landmark embodies The Gold Collar Life: power, privilege and refined taste. With resort-themed lifestyle amenities, sunlit cross-ventilated layouts, and 30+ lifestyle indulgences — Invictus by GS is crafted for those who&apos;ve built their success, not inherited it.
       </p>
       {/* <div style={{ borderTop: '1px solid #333', marginBottom: '24px' }} /> */}
     </div>
