@@ -103,7 +103,7 @@ const Hero = ({ setIsOpen }) => {
               color: 'rgba(255,255,255,0.6)', fontStyle: 'italic',
               margin: '0 0 14px', letterSpacing: '0.02em',
             }}>
-              The Gold Collar Life
+              The Gold Collar Life At Kalanagar
             </p>
 
             {/* Location */}
@@ -116,7 +116,7 @@ const Hero = ({ setIsOpen }) => {
                 color: 'rgba(255,255,255,0.65)',
                 letterSpacing: '0.07em', textTransform: 'uppercase', fontWeight: '600',
               }}>
-                BKC, Mumbai &nbsp;·&nbsp; By Raymond Realty
+                BKC,Bandra,East Mumbai &nbsp;·&nbsp; By Raymond Realty
               </span>
             </div>
 
