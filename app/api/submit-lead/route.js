@@ -136,16 +136,16 @@ export async function POST(request) {
       cityId: CITY_ID,
       cityName: CITY_SLUG,
 
-      // gaMedium: utmMedium,
-      // campaign: utmCampaign,
-      // addgroup: get('adgroup_name'),
-      // 
-      // utm_term: utmTerm,
-      // utm_content: utmContent,
-      // 
-      // gclid,
-      // gbraid,
-      // wbraid,
+      gaMedium: utmMedium,
+      campaign: utmCampaign,
+      addgroup: get('adgroup_name'),
+
+      utm_term: utmTerm,
+      utm_content: utmContent,
+
+      gclid,
+      gbraid,
+      wbraid,
 
       query: comments || 'Please arrange a callback',
       device: get('device'),
