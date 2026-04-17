@@ -119,16 +119,14 @@ export async function POST(request) {
       .catch(e => console.error('[Sheet] error:', e.message))
 
     /* ── 2. Proptiger CRM ── */
-    const ptUrl = `${PROPTIGER_URL}?sourceDomain=Microsite`
-    // const ptUrl = `${PROPTIGER_URL}?utm_source=${encodeURIComponent(utmSource)}&utm_medium=${encodeURIComponent(utmMedium)}&utm_campaign=${encodeURIComponent(utmCampaign)}&utm_term=${encodeURIComponent(utmTerm)}&utm_content=${encodeURIComponent(utmContent)}&gclid=${encodeURIComponent(gclid)}&gbraid=${encodeURIComponent(gbraid)}&wbraid=${encodeURIComponent(wbraid)}&campaign_name=${encodeURIComponent(campaignName)}&sourceDomain=Microsite`
+    const ptUrl = `${PROPTIGER_URL}?utm_source=${encodeURIComponent(utmSource)}&utm_medium=${encodeURIComponent(utmMedium)}&utm_campaign=${encodeURIComponent(utmCampaign)}&utm_term=${encodeURIComponent(utmTerm)}&utm_content=${encodeURIComponent(utmContent)}&gclid=${encodeURIComponent(gclid)}&gbraid=${encodeURIComponent(gbraid)}&wbraid=${encodeURIComponent(wbraid)}&campaign_name=${encodeURIComponent(campaignName)}&sourceDomain=Microsite`
 
     const ptPayload = {
       name: `${firstName} ${lastName}`.trim(),
       email,
       phone,
       countryId: '1',
-      // source: utmSource,
-      source: 'Microsite',
+      source: utmSource,
 
       projectId,
       projectName,
