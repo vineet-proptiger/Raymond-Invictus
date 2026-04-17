@@ -58,16 +58,16 @@ export async function POST(request) {
     const lastName = nameParts[1] || firstName
 
     // /* ── Tracking ── */
-    // const utmSource = get('utm_source') || 'Microsite'
-    // const utmMedium = get('utm_medium') || 'organic'
-    // const utmCampaign = get('utm_campaign')
-    // const utmTerm = get('utm_term')
-    // const utmContent = get('utm_content')
-    // const campaignName = get('campaign_name')
-    // 
-    // const gclid = get('gclid')
-    // const gbraid = get('gbraid')
-    // const wbraid = get('wbraid')
+    const utmSource = get('utm_source') || 'Microsite'
+    const utmMedium = get('utm_medium') || 'organic'
+    const utmCampaign = get('utm_campaign')
+    const utmTerm = get('utm_term')
+    const utmContent = get('utm_content')
+    const campaignName = get('campaign_name')
+
+    const gclid = get('gclid')
+    const gbraid = get('gbraid')
+    const wbraid = get('wbraid')
 
     const landingPage = get('SourceURL') || get('landing_page')
     const userIP = getUserIP(request) || get('ip_address')
@@ -88,15 +88,15 @@ export async function POST(request) {
       Mobile: phone,
       Comments: comments,
 
-      // utm_source: utmSource,
-      // utm_medium: utmMedium,
-      // utm_campaign: utmCampaign,
-      // utm_term: utmTerm,
-      // utm_content: utmContent,
-      // 
-      // gclid,
-      // gbraid,
-      // wbraid,
+      utm_source: utmSource,
+      utm_medium: utmMedium,
+      utm_campaign: utmCampaign,
+      utm_term: utmTerm,
+      utm_content: utmContent,
+
+      gclid,
+      gbraid,
+      wbraid,
 
       SourceURL: landingPage,
       landing_page: landingPage,
