@@ -84,16 +84,7 @@ const Pricing = ({ setIsOpen }) => {
 
           <div className="w-20 h-1 mx-auto rounded-full mb-4" style={{ background: GOLD }} />
 
-          <p style={{ fontFamily: F_SANS, fontSize: '14px', color: '#6b7280', margin: '0 0 8px' }}>
-            Homes crafted around flow, proportion, and balance
-          </p>
 
-          {/* <p
-            className="max-w-2xl mx-auto text-gray-500"
-            style={{ fontFamily: F_SANS, fontSize: '14px' }}
-          >
-            Forest living residences crafted for discerning homebuyers on Dwarka Expressway — Gurugram&apos;s most coveted address.
-          </p> */}
         </div>
 
         {/* Cards Grid */}
