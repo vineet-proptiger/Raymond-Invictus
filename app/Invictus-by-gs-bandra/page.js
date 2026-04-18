@@ -72,7 +72,7 @@ export default function Home() {
           </svg>
         </button>
         <a
-          href="https://wa.me/919718344024?text=Hi%2C%20I%20am%20interested%20in%20Invictus%20by%20GS%2C%20BKC%20Mumbai.%20Please%20share%20details.%20(raymondrealty.in)"
+          href="https://wa.me/919718344024?text=Hi%2C%20I%20am%20interested%20in%20Raymond%20Invictus%20by%20GS%2C%20BKC%20Mumbai.%20Please%20share%20details."
           target="_blank" rel="noopener noreferrer"
           className="flex-1 flex items-center justify-center py-2 !px-0 text-white transition-all hover:bg-white hover:text-[#25D366] hover:border hover:border-[#25D366]"
           style={{ background: '#25D366', fontFamily: 'var(--font-sans)' }}
