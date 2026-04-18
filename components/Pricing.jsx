@@ -8,7 +8,7 @@ const units = [
   {
     type: "3 BHK",
     size: "1353 Sq. Ft.*",
-    price: "On Request",
+    price: "₹ 5.5 Cr Onwards",
     oldPrice: null,
     btnText: "Enquire Now",
     features: [
@@ -20,7 +20,7 @@ const units = [
   },
   {
     type: "3.5 BHK",
-    size: "1684 Sq. Ft.*",
+    size: "1500 Sq. Ft.*",
     price: "On Request",
     oldPrice: null,
     btnText: "Enquire Now",

@@ -1,6 +1,5 @@
 // ═══════════════════════════════════════════════════════════════
 //  SUBMIT LEAD API ROUTE — Next.js
-//  PHP submit-lead.php ka exact replacement
 //  POST /api/submit-lead
 // ═══════════════════════════════════════════════════════════════
 
