@@ -44,8 +44,8 @@ const nephilm = localFont({
 
 export const metadata = {
   metadataBase: new URL('https://raymondtheaddressbygsmumbai.com'),
-  title: 'Raymond The Address By GS | 2 & 3 BHK Hillside Homes',
-  description: 'Discover Raymond The Address By GS in Mumbai. Offering spacious 2 & 3 BHK hillside residences across a sprawling 145-acre township with world-class lifestyle amenities.',
+  title: 'Raymond The Address By GS | 2 & 3 BHK Homes',
+  description: 'Discover Raymond The Address By GS in Mumbai. Offering spacious 2 & 3 BHK residences across a sprawling 145-acre township with world-class lifestyle amenities.',
   icons: {
     icon: faviconImage,
     shortcut: faviconImage,
@@ -99,7 +99,7 @@ export default function RootLayout({ children }) {
               "url": "https://raymondtheaddressbygsmumbai.com",
               "logo": "https://raymondtheaddressbygsmumbai.com/projects/iris-tower.jpg",
               "image": "https://raymondtheaddressbygsmumbai.com/projects/iris-tower.jpg",
-              "description": "Raymond The Address By GS, Mumbai's premier 145-acre township offering luxurious hillside 2 & 3 BHK residences.",
+              "description": "Raymond The Address By GS, Mumbai's premier 145-acre township offering luxurious 2 & 3 BHK residences.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Wadala",

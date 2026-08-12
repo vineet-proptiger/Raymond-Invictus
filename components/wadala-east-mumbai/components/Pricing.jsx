@@ -7,7 +7,7 @@ const GOLD = "#c28522";
 const units = [
   {
     type: "2 BHK",
-    subtitle: "HILLSIDE RESIDENCES",
+    subtitle: "PREMIUM RESIDENCES",
     size: "700 - 800 Sqft",
     price: "₹ 2.59 Cr*",
     btnText: "GET DETAILS",
@@ -20,7 +20,7 @@ const units = [
   },
   {
     type: "3 BHK",
-    subtitle: "HILLSIDE RESIDENCES",
+    subtitle: "PREMIUM RESIDENCES",
     size: "1100 - 1200 Sqft",
     price: "Ask For Price",
     btnText: "GET DETAILS",

@@ -470,7 +470,7 @@ const Hero = ({ setIsOpen }) => {
 
         {/* Price Line */}
         <p className="hero-price-line" style={{ marginBottom: '0px' }}>
-          Spacious 2 &amp; 3 BHK Hillside Homes
+          Spacious 2 &amp; 3 BHK Homes
           <span style={{ marginLeft: '6px', marginRight: '6px' }}>
             Price Starts
           </span>

@@ -179,7 +179,7 @@ const Projects = ({ setIsOpen }) => {
           <div className="w-full lg:w-1/2 project-content-box">
             <h3 className="project-title">RAYMOND THE ADDRESS BY GS - RESIDENTIAL</h3>
             <p className="project-desc">
-              The residential cluster of Raymond The Address By GS in Wadala, Mumbai offers spacious 2 &amp; 3 BHK hillside apartments with extensive decks. Designed for elegant living with breathtaking verdant views of surrounding greenery and hills, each residence is crafted with branded fitments and smart layouts. Residents enjoy access to a chlorine-free swimming pool, clubhouse, gym, and landscaped gardens.
+              The residential cluster of Raymond The Address By GS in Wadala, Mumbai offers spacious 2 &amp; 3 BHK apartments with extensive decks. Designed for elegant living with breathtaking verdant views of surrounding greenery, each residence is crafted with branded fitments and smart layouts. Residents enjoy access to a chlorine-free swimming pool, clubhouse, gym, and landscaped gardens.
             </p>
             <button
               className="explore-btn"
@@ -209,7 +209,7 @@ const Projects = ({ setIsOpen }) => {
           <div className="w-full lg:w-1/2 project-content-box">
             <h3 className="project-title">RAYMOND THE ADDRESS BY GS &amp; COMMERCIAL PLAZA</h3>
             <p className="project-desc">
-              Complementing the hillside residences is the thriving retail and commercial sector of Raymond The Address By GS, offering office spaces and a lively shopping plaza. Thoughtfully developed across 145 sprawling acres as an integrated township, it exemplifies urban convenience and nature-inspired living with grand entrance lobbies, multi-level parking, everyday conveniences, and seamless connectivity.
+              Complementing the premium residences is the thriving retail and commercial sector of Raymond The Address By GS, offering office spaces and a lively shopping plaza. Thoughtfully developed across 145 sprawling acres as an integrated township, it exemplifies urban convenience and nature-inspired living with grand entrance lobbies, multi-level parking, everyday conveniences, and seamless connectivity.
             </p>
             <button
               className="explore-btn"
