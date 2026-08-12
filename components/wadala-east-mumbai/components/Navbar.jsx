@@ -397,6 +397,7 @@ const Navbar = ({ setIsOpen }) => {
             flex: 0 0 auto !important;
             transition: none !important;
             transform: none !important;
+            overflow: visible !important;
           }
           
           .nav-logo,
@@ -411,7 +412,7 @@ const Navbar = ({ setIsOpen }) => {
             visibility: visible !important;
             margin-left: 0 !important;
             transition: none !important;
-            transform: scale(1.18) !important;
+            transform: scale(1.15) !important;
             transform-origin: left center !important;
             object-fit: contain !important;
             mix-blend-mode: multiply !important;
