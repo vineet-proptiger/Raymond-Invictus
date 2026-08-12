@@ -402,14 +402,14 @@ const Navbar = ({ setIsOpen }) => {
           .nav-logo,
           .header_style2.sticky .nav-logo,
           .header_style2.scrolled-up-expanded .nav-logo {
-            height: 65px !important;
-            min-height: 65px !important;
-            max-width: 75vw !important;
+            height: 80px !important;
+            min-height: 80px !important;
+            max-width: 85vw !important;
             width: auto !important;
             display: block !important;
             opacity: 1 !important;
             visibility: visible !important;
-            margin-left: 0 !important;
+            margin-left: -5px !important;
             transition: none !important;
             transform: none !important;
             object-fit: contain !important;
