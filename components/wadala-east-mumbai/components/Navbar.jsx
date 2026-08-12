@@ -411,6 +411,7 @@ const Navbar = ({ setIsOpen }) => {
             margin-left: 0 !important;
             transition: none !important;
             transform: scale(1.35) !important;
+            transform-origin: left center !important;
             mix-blend-mode: multiply !important;
           }
           
