@@ -26,11 +26,11 @@ export default function PrivacyPolicy() {
         <div className="h-0.5 w-full" style={{ background: `linear-gradient(90deg, var(--color-gold), var(--color-gold-light), var(--color-gold))` }}></div>
 
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-[80px]">
-          <Link href="/" className="flex items-center">
+          <Link href="/Invictus-by-gs-bandra" className="flex items-center">
             <img src={logoImages.tarc} alt="Invictus by GS" className="h-10 sm:h-14 w-auto object-contain" />
           </Link>
           <Link
-            href="/"
+            href="/Invictus-by-gs-bandra"
             className="btn-gold shadow-lg"
           >
             ← BACK TO HOME
@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <div className="flex items-center justify-center gap-2 text-white/80 text-sm" style={{ fontFamily: 'var(--font-sans)' }}>
-            <Link href="/" className="hover:text-white transition-colors" style={{ color: 'var(--color-gold)' }}>Home</Link>
+            <Link href="/Invictus-by-gs-bandra" className="hover:text-white transition-colors" style={{ color: 'var(--color-gold)' }}>Home</Link>
             <span>›</span>
             <span>Privacy Policy</span>
           </div>
@@ -301,7 +301,7 @@ export default function PrivacyPolicy() {
       <footer style={{ background: 'var(--color-dark)', color: '#fff', padding: '24px', textAlign: 'center', borderTop: '1px solid #333' }}>
         <p style={{ fontSize: '13px', color: '#888', fontFamily: 'var(--font-sans)' }}>
           &copy; 2026 Invictus by GS. All rights reserved |{' '}
-          <Link href="/" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
+          <Link href="/Invictus-by-gs-bandra" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
         </p>
       </footer>
     </main>
