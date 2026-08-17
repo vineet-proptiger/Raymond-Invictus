@@ -1,38 +1,38 @@
 'use client'
 import React from 'react'
-import { Compass, DoorOpen, Maximize, Sofa, Utensils, BookOpen } from 'lucide-react'
+import { Compass, Store, ShieldCheck, Map, Star, Landmark } from 'lucide-react'
 
 const Highlights = () => {
   const highlightItems = [
     {
+      icon: <Landmark size={32} color="#fff" strokeWidth={1.75} />,
+      title: 'Portuguese-Inspired Architecture',
+      desc: 'Beautiful blend of classic Portuguese architecture and modern styling amidst lush landscapes.',
+    },
+    {
+      icon: <Store size={32} color="#fff" strokeWidth={1.75} />,
+      title: 'Retail Spaces on Premises',
+      desc: 'Built-in retail spaces for groceries and daily essentials without leaving the gates.',
+    },
+    {
+      icon: <Star size={32} color="#fff" strokeWidth={1.75} />,
+      title: '30+ Modern Amenities',
+      desc: 'Enjoy 30+ lifestyle amenities including a large pool, gym, café, and kids zones.',
+    },
+    {
+      icon: <ShieldCheck size={32} color="#fff" strokeWidth={1.75} />,
+      title: 'Premier Gated Community',
+      desc: "Bandra's finest secure gated community offering a peaceful sanctuary with vast open spaces.",
+    },
+    {
+      icon: <Map size={32} color="#fff" strokeWidth={1.75} />,
+      title: 'Seamless City Connectivity',
+      desc: 'Perfectly connected to BKC, premium social infrastructure, and key business zones.',
+    },
+    {
       icon: <Compass size={32} color="#fff" strokeWidth={1.75} />,
       title: 'Vaastu Compliant',
       desc: 'Vaastu-compliant entrance.',
-    },
-    {
-      icon: <DoorOpen size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Grand Foyer',
-      desc: 'Spacious entrance foyer.',
-    },
-    {
-      icon: <Maximize size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Full-Size Windows',
-      desc: 'Full-size windows in all rooms.',
-    },
-    {
-      icon: <Sofa size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Expansive Deck',
-      desc: 'Expansive deck area in living room.',
-    },
-    {
-      icon: <Utensils size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Spacious Dining',
-      desc: 'Spacious dining area.',
-    },
-    {
-      icon: <BookOpen size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Study Provision',
-      desc: 'Additional provision of study area in Master Bedroom.',
     },
   ]
 

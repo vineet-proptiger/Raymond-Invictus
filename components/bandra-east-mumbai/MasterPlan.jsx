@@ -7,21 +7,21 @@ const plans = [
     label: '2 BHK Residence', 
     img: masterplanImages.bhk2,
     details: {
-        carpet: '630 - 725 Sqft'
+        carpet: '685 Sq.ft.'
     }
   },
   { 
     label: '3 BHK Residence', 
     img: masterplanImages.bhk3 || masterplanImages.bhk45,
     details: {
-        carpet: '905 - 1145 Sqft'
+        carpet: '755 Sq.ft.'
     }
   },
   { 
     label: '4 BHK Residence', 
     img: masterplanImages.bhk45 || masterplanImages.bhk3,
     details: {
-        carpet: '1360 - 1438 Sqft'
+        carpet: '1477 Sq.ft.'
     }
   },
 ]

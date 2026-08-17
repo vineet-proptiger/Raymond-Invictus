@@ -153,7 +153,7 @@ const Overview = ({ setIsOpen }) => {
               marginBottom: '24px',
               transition: 'all 0.3s ease'
             }}>
-              Raymond Bandra rises as a distinguished residential landmark crafted for those who value location, connectivity, and refined living. Ideally positioned close to the thriving commercial hub of BKC, Raymond Address by GS Bandra offers unmatched accessibility for professionals while ensuring a serene residential environment. With seamless access to key business zones and premium social infrastructure, Raymond Bandra East blends convenience with exclusivity. Designed to elevate everyday experiences, the project reflects Raymond Realty's commitment to timeless architecture and thoughtfully curated luxury.
+              Welcome to The Address by GS Bandra, a premium gated society that brings you the best of modern luxury living. Here, you will find beautiful 2, 3, and 4 BHK homes built with high-quality finishes, stylish Portuguese-inspired design, and lovely green gardens. Located in one of Bandra's finest spots, this safe and peaceful neighborhood offers top-class amenities and plenty of open space for you and your family to relax. It is the perfect place to enjoy a comfortable, upscale lifestyle in the heart of the city.
             </p>
             
 
@@ -167,7 +167,7 @@ const Overview = ({ setIsOpen }) => {
             >
               <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-[#d3be8a] flex flex-row md:flex-col justify-between md:justify-center items-center md:items-start bg-[#fdfbf7] p-4 md:px-6 md:py-4">
                 <p className="!m-0 md:!mb-1" style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: '600' }}>Total Project Area</p>
-                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4', margin: 0 }}>3.58 acres</h3>
+                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4', margin: 0 }}>4 acres</h3>
               </div>
               <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-[#d3be8a] flex flex-row md:flex-col justify-between md:justify-center items-center md:items-start bg-[#fdfbf7] p-4 md:px-6 md:py-4">
                 <p className="!m-0 md:!mb-1" style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: '600' }}>Units</p>

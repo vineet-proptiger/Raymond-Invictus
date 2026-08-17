@@ -8,7 +8,7 @@ const units = [
   {
     type: "2 BHK",
     subtitle: "PREMIUM RESIDENCES",
-    size: "630 - 725 Sqft",
+    size: "685 Sq.ft.",
     price: "2.70 Cr*",
     btnText: "GET DETAILS",
     features: [
@@ -21,7 +21,7 @@ const units = [
   {
     type: "3 BHK",
     subtitle: "PREMIUM RESIDENCES",
-    size: "905 - 1145 Sqft",
+    size: "755 Sq.ft.",
     price: "Ask For Price",
     btnText: "GET DETAILS",
     features: [
@@ -34,7 +34,7 @@ const units = [
   {
     type: "4 BHK",
     subtitle: "PREMIUM RESIDENCES",
-    size: "1360 - 1438 Sqft",
+    size: "1477 Sq.ft.",
     price: "Ask For Price",
     btnText: "GET DETAILS",
     features: [
