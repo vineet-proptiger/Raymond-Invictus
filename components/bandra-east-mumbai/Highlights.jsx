@@ -52,7 +52,7 @@ const Highlights = () => {
           width: 100%;
           height: 100%;
           z-index: 1;
-          background-image: url('/bandra-east-mumbai/images/highlights/highlight.webp');
+          background-image: url('/bandra-east-mumbai/highlights/highlight.webp');
           background-size: cover;
           background-position: center;
           background-attachment: fixed;

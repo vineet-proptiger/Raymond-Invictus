@@ -7,7 +7,7 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 
 const Footer = () => (
-  <footer className="relative bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('/bandra-east-mumbai/images/footer/footer.webp')", color: '#fff' }}>
+  <footer className="relative bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('/bandra-east-mumbai/footer/footer.webp')", color: '#fff' }}>
     {/* Removed blue overlay as requested */}
 
     <div className="relative z-10">

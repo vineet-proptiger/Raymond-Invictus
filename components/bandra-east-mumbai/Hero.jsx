@@ -26,7 +26,7 @@ const Hero = ({ setIsOpen }) => {
           margin-top: 0px;
           height: auto;
           overflow: hidden;
-          background-image: url('/bandra-east-mumbai/images/hero/banner1.webp');
+          background-image: url('/bandra-east-mumbai/hero/banner1.webp');
           background-size: cover;
           background-position: center;
           display: block;
@@ -327,8 +327,8 @@ const Hero = ({ setIsOpen }) => {
               position: absolute;
               inset: 0;
               background-color: #C9A65A;
-              -webkit-mask-image: url('/bandra-east-mumbai/images/hero/leaf-bg.png');
-              mask-image: url('/bandra-east-mumbai/images/hero/leaf-bg.png');
+              -webkit-mask-image: url('/bandra-east-mumbai/hero/leaf-bg.png');
+              mask-image: url('/bandra-east-mumbai/hero/leaf-bg.png');
               -webkit-mask-size: contain;
               mask-size: contain;
               -webkit-mask-position: center center;
@@ -423,7 +423,7 @@ const Hero = ({ setIsOpen }) => {
       {/* ── Single Static Banner Image (Mobile Devices only - Complete Uncropped View) ── */}
       <div className="block md:hidden relative w-full bg-[#0F172A]">
         <Image
-          src={heroImages.smDevice || '/bandra-east-mumbai/images/hero/smDevice.webp'}
+          src={heroImages.smDevice || '/bandra-east-mumbai/hero/smDevice.webp'}
           alt="Raymond The Address By GS Mobile Banner"
           width={1000}
           height={1000}

@@ -60,7 +60,7 @@ const ContactCTA = () => {
   }
 
   return (
-    <section id="contact" className="relative py-20 bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(/bandra-east-mumbai/images/Enquiry/enquiry.webp)' }}>
+    <section id="contact" className="relative py-20 bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(/bandra-east-mumbai/Enquiry/enquiry.webp)' }}>
       <div className="absolute inset-0 bg-black/70"></div>
       
       <div className="container mx-auto px-4 relative z-10 max-w-6xl">

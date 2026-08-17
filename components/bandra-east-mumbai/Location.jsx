@@ -20,7 +20,7 @@ const Location = () => {
   return (
     <section id="location" style={{
       padding: '72px 0',
-      backgroundImage: "url('/bandra-east-mumbai/images/highlights/highlight.webp')",
+      backgroundImage: "url('/bandra-east-mumbai/highlights/highlight.webp')",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',

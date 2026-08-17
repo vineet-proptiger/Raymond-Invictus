@@ -125,7 +125,7 @@ const ContactForm = () => {
 }
 
 const AboutDeveloper = ({ setIsOpen }) => (
-  <section id="developer" className="py-16 sm:py-20 relative bg-fixed bg-cover bg-center border-b border-gray-100" style={{ backgroundImage: 'url(/bandra-east-mumbai/images/about-devloper/about-dev.webp)' }}>
+  <section id="developer" className="py-16 sm:py-20 relative bg-fixed bg-cover bg-center border-b border-gray-100" style={{ backgroundImage: 'url(/bandra-east-mumbai/about-devloper/about-dev.webp)' }}>
     <div className="container mx-auto px-4 md:px-8 relative z-10">
 
       {/* Heading */}
