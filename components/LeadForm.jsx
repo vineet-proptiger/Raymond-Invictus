@@ -10,7 +10,7 @@ const inputClass = 'form-input mb-3 shadow-sm'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 
 const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details' }) => {
-  const [formData, setFormData] = useState({ fullname: '', email: '', phone: '' })
+  const [formData, setFormData] = useState({ fullname: '', email: '', phone: '' , website: '' , website: '' })
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState('')
@@ -30,10 +30,12 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details' }) => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     if (!formData.phone || formData.phone.replace(/\D/g, '').length < 10) { setError('Please enter a valid 10-digit mobile number.'); return }
+        if (!/^[6-9]\d{9}$/.test(formData.phone)) { setError('Phone number must start with 6, 7, 8, or 9'); return }
     setError(''); setLoading(true)
     const tracking = buildTrackingFields(ipAddress, geoAddress)
     const payload = new FormData()
     payload.append('fullname', formData.fullname)
+    payload.append('website', formData.website || '')
     payload.append('email', formData.email)
     payload.append('phone', formData.phone)
     payload.append('projectId', PROJECT_ID)
@@ -78,6 +80,9 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details' }) => {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-1">
+      {/* Honeypot */}
+      <input type="text" name="website" style={{ display: 'none' }} value={typeof formData !== 'undefined' ? formData.website : (typeof form !== 'undefined' ? form.website : '')} onChange={typeof handleChange !== 'undefined' ? handleChange : (typeof handle !== 'undefined' ? handle : () => {})} tabIndex="-1" autoComplete="off" />
+
       <input type="text" name="fullname" required placeholder="Enter full name" value={formData.fullname} onChange={handleChange}
         className={inputClass} style={{ fontFamily: F_SANS }} />
       <input type="email" name="email" placeholder="Email Id (optional)" value={formData.email} onChange={handleChange}

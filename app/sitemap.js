@@ -9,13 +9,13 @@ export default function sitemap() {
       priority: 1,
     },
     {
-      url: `${baseUrl}/bandra-east-mumbai`,
+      url: `${baseUrl}/the-address-by-gs-bandra`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/wadala-east-mumbai`,
+      url: `${baseUrl}/the-address-by-gs-wadala`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,

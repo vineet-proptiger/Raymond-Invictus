@@ -10,7 +10,7 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 
 const ContactForm = () => {
-  const [form, setForm] = useState({ fullname: '', phone: '', email: '' })
+  const [form, setForm] = useState({ fullname: '', phone: '', email: '' , website: '' , website: '' })
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState('')
@@ -30,10 +30,12 @@ const ContactForm = () => {
   const submit = async (e) => {
     e.preventDefault()
     if (form.phone.replace(/\D/g, '').length < 10) { setError('Enter valid 10-digit number'); return }
+        if (!/^[6-9]\d{9}$/.test(form.phone)) { setError('Phone number must start with 6, 7, 8, or 9'); return }
     setError(''); setLoading(true)
     const tracking = buildTrackingFields(ipAddress, geoAddress)
     const payload = new FormData()
     payload.append('fullname', form.fullname)
+    payload.append('website', form.website || '')
     payload.append('phone', form.phone)
     payload.append('email', form.email || '')
     payload.append('projectId', PROJECT_ID)
@@ -69,6 +71,9 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={submit} className="flex flex-col gap-4">
+      {/* Honeypot */}
+      <input type="text" name="website" style={{ display: 'none' }} value={typeof formData !== 'undefined' ? formData.website : (typeof form !== 'undefined' ? form.website : '')} onChange={typeof handleChange !== 'undefined' ? handleChange : (typeof handle !== 'undefined' ? handle : () => {})} tabIndex="-1" autoComplete="off" />
+
       <div>
         <label style={{
           display: 'block', fontSize: '11px', fontWeight: '700', color: '#6b7280',

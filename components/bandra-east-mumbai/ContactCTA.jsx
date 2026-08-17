@@ -9,7 +9,7 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 
 const ContactCTA = () => {
-  const [form, setForm] = useState({ fullname: '', phone: '', email: '' })
+  const [form, setForm] = useState({ fullname: '', phone: '', email: '' , website: '' , website: '' })
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState('')
@@ -27,6 +27,7 @@ const ContactCTA = () => {
     const tracking = buildTrackingFields()
     const payload = new FormData()
     payload.append('fullname', form.fullname)
+    payload.append('website', form.website || '')
     payload.append('phone', form.phone)
     payload.append('email', form.email || '')
     payload.append('projectId', PROJECT_ID)
@@ -95,6 +96,9 @@ const ContactCTA = () => {
               </div>
             ) : (
               <form onSubmit={submit} className="flex flex-col gap-6">
+      {/* Honeypot */}
+      <input type="text" name="website" style={{ display: 'none' }} value={typeof formData !== 'undefined' ? formData.website : (typeof form !== 'undefined' ? form.website : '')} onChange={typeof handleChange !== 'undefined' ? handleChange : (typeof handle !== 'undefined' ? handle : () => {})} tabIndex="-1" autoComplete="off" />
+
                 
                 {/* Name */}
                 <div>

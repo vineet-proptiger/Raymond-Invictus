@@ -187,13 +187,13 @@ const Overview = ({ setIsOpen }) => {
               data-aos-duration="1000" 
               data-aos-delay="200"
             >
-              <div className="w-full md:w-1/2 border-b md:border-b-0 md:border-r border-[#d3be8a] flex flex-col justify-center bg-[#fdfbf7]" style={{ padding: '16px 24px' }}>
-                <p style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '4px', fontWeight: '600' }}>Land Parcel</p>
-                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4' }}>5.62 Acres</h3>
+              <div className="w-full md:w-1/2 border-b md:border-b-0 md:border-r border-[#d3be8a] flex flex-row md:flex-col justify-between md:justify-center items-center md:items-start bg-[#fdfbf7] p-4 md:px-6 md:py-4">
+                <p className="!m-0 md:!mb-1" style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: '600' }}>Land Parcel</p>
+                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4', margin: 0 }}>5.62 Acres</h3>
               </div>
-              <div className="w-full md:w-1/2 flex flex-col justify-center bg-[#fdfbf7]" style={{ padding: '16px 24px' }}>
-                <p style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '4px', fontWeight: '600' }}>Floors</p>
-                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4' }}>G + 31 Storey</h3>
+              <div className="w-full md:w-1/2 flex flex-row md:flex-col justify-between md:justify-center items-center md:items-start bg-[#fdfbf7] p-4 md:px-6 md:py-4">
+                <p className="!m-0 md:!mb-1" style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', fontWeight: '600' }}>Floors</p>
+                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4', margin: 0 }}>G + 31 Storey</h3>
               </div>
             </div>
 

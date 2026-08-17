@@ -11,7 +11,7 @@ const inputClass = 'form-input mb-3 shadow-sm'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 
 const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details', isTransparent = false }) => {
-  const [formData, setFormData] = useState({ fullname: '', email: '', phone: '' })
+  const [formData, setFormData] = useState({ fullname: '', email: '', phone: '' , website: '' , website: '' })
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState('')
@@ -29,6 +29,7 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details', isTransp
     const tracking = buildTrackingFields()
     const payload = new FormData()
     payload.append('fullname', formData.fullname)
+    payload.append('website', formData.website || '')
     payload.append('email', formData.email)
     payload.append('phone', formData.phone)
     payload.append('projectId', PROJECT_ID)
@@ -80,6 +81,9 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details', isTransp
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-1 w-full">
+      {/* Honeypot */}
+      <input type="text" name="website" style={{ display: 'none' }} value={typeof formData !== 'undefined' ? formData.website : (typeof form !== 'undefined' ? form.website : '')} onChange={typeof handleChange !== 'undefined' ? handleChange : (typeof handle !== 'undefined' ? handle : () => {})} tabIndex="-1" autoComplete="off" />
+
       <input type="text" name="fullname" required placeholder="First Name" value={formData.fullname} onChange={handleChange}
         className={dynamicInputClass} style={dynamicInputStyle} />
       <input type="email" name="email" placeholder="Email Id (optional)" value={formData.email} onChange={handleChange}
@@ -92,7 +96,7 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details', isTransp
       {/* <div className="flex items-start gap-2 mt-3">
         <input type="checkbox" id="privacy-lead" required defaultChecked className="mt-0.5 shrink-0" style={{ accentColor: GOLD }} />
         <label htmlFor="privacy-lead" className={`text-xs leading-relaxed cursor-pointer ${isTransparent ? 'text-gray-400' : 'text-gray-500'}`} style={{ fontFamily: F_SANS }}>
-          I agree to receive updates as per the <Link href="/bandra-east-mumbai/privacy-policy" className={`underline ${isTransparent ? 'hover:text-white' : 'hover:text-[var(--color-gold)]'}`} title="Read our Privacy Policy">Privacy Policy</Link>
+          I agree to receive updates as per the <Link href="/the-address-by-gs-bandra/privacy-policy" className={`underline ${isTransparent ? 'hover:text-white' : 'hover:text-[var(--color-gold)]'}`} title="Read our Privacy Policy">Privacy Policy</Link>
         </label>
       </div> */}
 
