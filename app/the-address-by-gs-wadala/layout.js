@@ -43,7 +43,7 @@ const nephilm = localFont({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://raymondtheaddressbygsmumbai.com'),
+  metadataBase: new URL('https://raymondrealtyprelaunch.in'),
   title: 'Raymond The Address By GS | 2 & 3 BHK Homes',
   description: 'Discover Raymond The Address By GS in Mumbai. Offering spacious 2 & 3 BHK residences across a sprawling 145-acre township with world-class lifestyle amenities.',
   icons: {
@@ -52,12 +52,12 @@ export const metadata = {
     apple: faviconImage,
   },
   alternates: {
-    canonical: 'https://raymondtheaddressbygsmumbai.com',
+    canonical: 'https://raymondrealtyprelaunch.in',
   },
   openGraph: {
     title: 'Raymond The Address By GS | 2 & 3 BHK Hillside Homes',
     description: 'Discover Raymond The Address By GS in Mumbai. Offering spacious 2 & 3 BHK hillside residences across a sprawling 145-acre township with world-class lifestyle amenities.',
-    url: 'https://raymondtheaddressbygsmumbai.com',
+    url: 'https://raymondrealtyprelaunch.in',
     siteName: 'Raymond The Address By GS',
     images: [
       {
@@ -96,9 +96,9 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
               "name": "Raymond The Address By GS",
-              "url": "https://raymondtheaddressbygsmumbai.com",
-              "logo": "https://raymondtheaddressbygsmumbai.com/projects/iris-tower.jpg",
-              "image": "https://raymondtheaddressbygsmumbai.com/projects/iris-tower.jpg",
+              "url": "https://raymondrealtyprelaunch.in",
+              "logo": "https://raymondrealtyprelaunch.in/projects/iris-tower.jpg",
+              "image": "https://raymondrealtyprelaunch.in/projects/iris-tower.jpg",
               "description": "Raymond The Address By GS, Mumbai's premier 145-acre township offering luxurious 2 & 3 BHK residences.",
               "address": {
                 "@type": "PostalAddress",
@@ -111,7 +111,7 @@ export default function RootLayout({ children }) {
               "telephone": "+919718344024",
               "priceRange": "₹ 1.20 Cr Onwards",
               "sameAs": [
-                "https://raymondtheaddressbygsmumbai.com"
+                "https://raymondrealtyprelaunch.in"
               ]
             })
           }}

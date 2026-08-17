@@ -403,8 +403,8 @@ const Navbar = ({ setIsOpen }) => {
           .nav-logo,
           .header_style2.sticky .nav-logo,
           .header_style2.scrolled-up-expanded .nav-logo {
-            height: 60px !important;
-            min-height: 60px !important;
+            height: 70px !important;
+            min-height: 70px !important;
             width: auto !important;
             max-width: 70vw !important;
             display: block !important;
@@ -412,7 +412,7 @@ const Navbar = ({ setIsOpen }) => {
             visibility: visible !important;
             margin-left: 0 !important;
             transition: none !important;
-            transform: scale(1.15) !important;
+            transform: scale(1.1) !important;
             transform-origin: left center !important;
             object-fit: contain !important;
             mix-blend-mode: multiply !important;

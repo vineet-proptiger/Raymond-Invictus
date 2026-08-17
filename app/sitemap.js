@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://raymondtheaddressbygsmumbai.com';
+  const baseUrl = 'https://raymondrealtyprelaunch.in';
 
   return [
     {
