@@ -27,13 +27,19 @@ export default function PrivacyPolicy() {
 
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-[80px]">
           <Link href="/Invictus-by-gs-bandra" className="flex items-center">
-            <img src={logoImages.tarc} alt="Invictus by GS" className="h-10 sm:h-14 w-auto object-contain" />
+            <style>{`
+              .privacy-logo { height: 60px; min-height: 60px; width: auto; display: block; object-fit: contain; transform-origin: left center; mix-blend-mode: multiply; transform: scale(1.15); }
+              @media(max-width: 768px) {
+                .privacy-logo { height: 45px; min-height: 45px; transform-origin: left center; transform: scale(1); margin-left: 0; }
+              }
+            `}</style>
+            <img src={logoImages.tarc} alt="Raymond Invictus by GS" className="privacy-logo" />
           </Link>
           <Link
             href="/Invictus-by-gs-bandra"
-            className="btn-gold shadow-lg"
+            className="btn-gold shadow-lg !text-[11px] !px-3 !py-2 sm:!text-sm sm:!px-6 sm:!py-3"
           >
-            ← BACK TO HOME
+            <span className="hidden sm:inline">BACK TO HOME</span><span className="sm:hidden">HOME</span>
           </Link>
         </div>
       </nav>

@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
             <style>{`
               .privacy-logo { height: 60px; min-height: 60px; width: auto; display: block; object-fit: contain; transform-origin: left center; mix-blend-mode: multiply; transform: scale(1.15); }
               @media(max-width: 768px) {
-                .privacy-logo { height: 60px; min-height: 60px; transform-origin: left center; transform: scale(1.15); margin-left: 0; }
+                .privacy-logo { height: 45px; min-height: 45px; transform-origin: left center; transform: scale(1); margin-left: 0; }
               }
             `}</style>
             <img src={logoImages.main} alt="Raymond The Address By GS" className="privacy-logo" />
