@@ -61,13 +61,13 @@ export default function QuickChat() {
             
             <div className="flex flex-wrap justify-start gap-1.5 sm:gap-2.5">
               {[
-                {text: "💰 Current price band", link: "https://wa.me/919718344024?text=Hi%2C%20I%20want%20the%20current%20price%20band%20for%20Raymond%20The%20Address%20By%20GS."},
-                {text: "📄 2 & 3 BHK floor plans", link: "https://wa.me/919718344024?text=Hi%2C%20please%20send%20me%20the%202%20and%203%20BHK%20floor%20plans%20for%20Raymond%20The%20Address%20By%20GS."},
-                {text: "🚗 Book a site visit", link: "https://wa.me/919718344024?text=Hi%2C%20I%20want%20to%20book%20a%20site%20visit%20for%20Raymond%20The%20Address%20By%20GS."},
-                {text: "🌍 NRI investment guide", link: "https://wa.me/919718344024?text=Hi%2C%20I%20am%20an%20NRI%20buyer%20%E2%80%94%20please%20share%20the%20Raymond%20The%20Address%20By%20GS%20NRI%20investment%20guide."},
-                {text: "📐 20:80 Subvention plan", link: "https://wa.me/919718344024?text=Hi%2C%20please%20share%20the%20Raymond%20The%20Address%20By%20GS%2020%3A80%20subvention%20plan%20and%20EOI%20offer."},
-                {text: "📄 Send brochure (PDF)", link: "https://wa.me/919718344024?text=Hi%2C%20please%20share%20the%20Raymond%20The%20Address%20By%20GS%20brochure%20and%20official%20PDF."},
-                {text: "📞 Request a callback", link: "https://wa.me/919718344024?text=Hi%2C%20please%20schedule%20a%20callback%20for%20Raymond%20The%20Address%20By%20GS."}
+                {text: "💰 Current price band", link: "https://wa.me/919718344024?text=Hi%2C%20I%20want%20the%20current%20price%20band%20for%20Raymond%20The%20Address%20By%20GS%20Wadala."},
+                {text: "📄 2 & 3 BHK floor plans", link: "https://wa.me/919718344024?text=Hi%2C%20please%20send%20me%20the%202%20and%203%20BHK%20floor%20plans%20for%20Raymond%20The%20Address%20By%20GS%20Wadala."},
+                {text: "🚗 Book a site visit", link: "https://wa.me/919718344024?text=Hi%2C%20I%20want%20to%20book%20a%20site%20visit%20for%20Raymond%20The%20Address%20By%20GS%20Wadala."},
+                {text: "🌍 NRI investment guide", link: "https://wa.me/919718344024?text=Hi%2C%20I%20am%20an%20NRI%20buyer%20%E2%80%94%20please%20share%20the%20Raymond%20The%20Address%20By%20GS%20Wadala%20NRI%20investment%20guide."},
+                {text: "📐 20:80 Subvention plan", link: "https://wa.me/919718344024?text=Hi%2C%20please%20share%20the%20Raymond%20The%20Address%20By%20GS%20Wadala%2020%3A80%20subvention%20plan%20and%20EOI%20offer."},
+                {text: "📄 Send brochure (PDF)", link: "https://wa.me/919718344024?text=Hi%2C%20please%20share%20the%20Raymond%20The%20Address%20By%20GS%20Wadala%20brochure%20and%20official%20PDF."},
+                {text: "📞 Request a callback", link: "https://wa.me/919718344024?text=Hi%2C%20please%20schedule%20a%20callback%20for%20Raymond%20The%20Address%20By%20GS%20Wadala."}
               ].map((pill, i) => (
                 <a key={i} href={pill.link} target="_blank" rel="noopener noreferrer" 
                    className="bg-white text-[#005B4F] text-[10.5px] sm:text-[13px] font-medium px-2.5 py-1.5 sm:px-4 sm:py-2.5 rounded-full border border-[#25D366] shadow-sm hover:bg-[#005B4F] hover:text-white hover:border-[#005B4F] hover:shadow-md transition-all duration-300 whitespace-nowrap">

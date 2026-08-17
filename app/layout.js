@@ -34,6 +34,11 @@ const nephilm = localFont({
 export const metadata = {
   title: 'Invictus by GS | Ultra-Luxury 3 & 4 BHK Residences — BKC, Mumbai',
   description: 'Invictus by GS — The Gold Collar Life. Offering ultra-luxury 3 & 4 BHK residences in BKC, Mumbai with Art-Deco inspired architecture, resort-themed amenities and 30+ lifestyle indulgences.',
+  icons: {
+    icon: '/images/fav.webp',
+    shortcut: '/images/fav.webp',
+    apple: '/images/fav.webp',
+  },
 }
 
 export default function RootLayout({ children }) {
