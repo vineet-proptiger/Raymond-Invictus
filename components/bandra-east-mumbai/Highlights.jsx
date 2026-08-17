@@ -1,38 +1,38 @@
 'use client'
 import React from 'react'
-import { Award, Building2, Maximize, Sofa, Route, Trees } from 'lucide-react'
+import { Compass, DoorOpen, Maximize, Sofa, Utensils, BookOpen } from 'lucide-react'
 
 const Highlights = () => {
   const highlightItems = [
     {
-      icon: <Award size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Iconic Address',
-      desc: 'Iconic address by a trusted Grade-A developer.',
+      icon: <Compass size={32} color="#fff" strokeWidth={1.75} />,
+      title: 'Vaastu Compliant',
+      desc: 'Vaastu-compliant entrance.',
     },
     {
-      icon: <Building2 size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Elegant Twin Towers',
-      desc: 'Elegant twin towers in the heart of vibrant Bandra East.',
+      icon: <DoorOpen size={32} color="#fff" strokeWidth={1.75} />,
+      title: 'Grand Foyer',
+      desc: 'Spacious entrance foyer.',
     },
     {
       icon: <Maximize size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Spacious Deck Homes',
-      desc: 'Spacious deck homes with smart, airy layouts.',
+      title: 'Full-Size Windows',
+      desc: 'Full-size windows in all rooms.',
     },
     {
       icon: <Sofa size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Modern Living',
-      desc: 'Thoughtfully designed spaces for modern living.',
+      title: 'Expansive Deck',
+      desc: 'Expansive deck area in living room.',
     },
     {
-      icon: <Route size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'Seamless Connectivity',
-      desc: 'Seamless connectivity across Mumbai’s key hubs.',
+      icon: <Utensils size={32} color="#fff" strokeWidth={1.75} />,
+      title: 'Spacious Dining',
+      desc: 'Spacious dining area.',
     },
     {
-      icon: <Trees size={32} color="#fff" strokeWidth={1.75} />,
-      title: 'World-Class Amenities',
-      desc: 'Curated world-class amenities amid lush landscapes.',
+      icon: <BookOpen size={32} color="#fff" strokeWidth={1.75} />,
+      title: 'Study Provision',
+      desc: 'Additional provision of study area in Master Bedroom.',
     },
   ]
 

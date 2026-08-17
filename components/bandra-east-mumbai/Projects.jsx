@@ -179,7 +179,7 @@ const Projects = ({ setIsOpen }) => {
           <div className="w-full lg:w-1/2 project-content-box">
             <h3 className="project-title">RAYMOND THE ADDRESS BY GS - RESIDENTIAL</h3>
             <p className="project-desc">
-              The residential cluster of Raymond The Address By GS in Bandra East, Mumbai offers spacious 2 &amp; 3 BHK apartments with extensive decks. Designed for elegant living with breathtaking verdant views of surrounding greenery, each residence is crafted with branded fitments and smart layouts. Residents enjoy access to a chlorine-free swimming pool, clubhouse, gym, and landscaped gardens.
+              The residential cluster of Raymond The Address By GS in Bandra East, Mumbai offers spacious 2, 3 &amp; 4 BHK apartments with extensive decks. Designed for elegant living with breathtaking verdant views of surrounding greenery, each residence is crafted with branded fitments and smart layouts. Residents enjoy access to a chlorine-free swimming pool, clubhouse, gym, and landscaped gardens.
             </p>
             <button
               className="explore-btn"

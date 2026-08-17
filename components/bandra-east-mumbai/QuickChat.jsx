@@ -62,7 +62,7 @@ export default function QuickChat() {
             <div className="flex flex-wrap justify-start gap-1.5 sm:gap-2.5">
               {[
                 {text: "💰 Current price band", link: "https://wa.me/919718344024?text=Hi%2C%20I%20want%20the%20current%20price%20band%20for%20Raymond%20The%20Address%20By%20GS."},
-                {text: "📄 2 & 3 BHK floor plans", link: "https://wa.me/919718344024?text=Hi%2C%20please%20send%20me%20the%202%20and%203%20BHK%20floor%20plans%20for%20Raymond%20The%20Address%20By%20GS."},
+                {text: "📄 2, 3 & 4 BHK floor plans", link: "https://wa.me/919718344024?text=Hi%2C%20please%20send%20me%20the%202%2C%203%20and%204%20BHK%20floor%20plans%20for%20Raymond%20The%20Address%20By%20GS."},
                 {text: "🚗 Book a site visit", link: "https://wa.me/919718344024?text=Hi%2C%20I%20want%20to%20book%20a%20site%20visit%20for%20Raymond%20The%20Address%20By%20GS."},
                 {text: "🌍 NRI investment guide", link: "https://wa.me/919718344024?text=Hi%2C%20I%20am%20an%20NRI%20buyer%20%E2%80%94%20please%20share%20the%20Raymond%20The%20Address%20By%20GS%20NRI%20investment%20guide."},
                 {text: "📐 20:80 Subvention plan", link: "https://wa.me/919718344024?text=Hi%2C%20please%20share%20the%20Raymond%20The%20Address%20By%20GS%2020%3A80%20subvention%20plan%20and%20EOI%20offer."},

@@ -1,10 +1,9 @@
 'use client'
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import { overviewImage } from '../../lib/bandra-east-mumbai/images'
 
 const Overview = ({ setIsOpen }) => {
-  const [isExpanded, setIsExpanded] = useState(false)
 
   return (
   <section
@@ -154,28 +153,7 @@ const Overview = ({ setIsOpen }) => {
               marginBottom: '24px',
               transition: 'all 0.3s ease'
             }}>
-              Raymond The Address by Raymond Realty at GS redefines refined urban living with a striking blend of European-inspired architecture and timeless Art Deco elegance. Spread across 8 acres, Raymond The Address features an iconic tower offering intelligently designed 2 &amp; 3 BHK homes crafted for modern lifestyles. At Raymond The Address residents enjoy a premium mix of comfort and sophistication, with amenities that elevate everyday living.
-              {!isExpanded ? (
-                <>
-                  <span>... </span>
-                  <span
-                    onClick={() => setIsExpanded(true)}
-                    className="text-[#000242] font-bold text-[15px] cursor-pointer hover:text-[#C9A96E] hover:underline inline-flex items-center ml-1 whitespace-nowrap transition-colors duration-200"
-                  >
-                    Read More ▼
-                  </span>
-                </>
-              ) : (
-                <>
-                  <span> Raymond The Address offers a luxurious swimming pool, a fully equipped gymnasium, a vibrant kids&apos; play area, an elegant grand lobby, and engaging indoor games spaces. Life at Raymond The Address encourages wellness, leisure, and balance for people of all ages. Beyond homes, Raymond The Address nurtures a close-knit community through thoughtfully planned social spaces that promote connection while preserving privacy. Ideally located in the heart of the city, Raymond The Address offers seamless connectivity to business hubs, lifestyle destinations, and daily essentials, making it a complete address for elevated city living. </span>
-                  <span
-                    onClick={() => setIsExpanded(false)}
-                    className="text-[#000242] font-bold text-[15px] cursor-pointer hover:text-[#C9A96E] hover:underline inline-flex items-center ml-1 whitespace-nowrap transition-colors duration-200"
-                  >
-                    Read Less ▲
-                  </span>
-                </>
-              )}
+              Raymond Bandra rises as a distinguished residential landmark crafted for those who value location, connectivity, and refined living. Ideally positioned close to the thriving commercial hub of BKC, Raymond Address by GS Bandra offers unmatched accessibility for professionals while ensuring a serene residential environment. With seamless access to key business zones and premium social infrastructure, Raymond Bandra East blends convenience with exclusivity. Designed to elevate everyday experiences, the project reflects Raymond Realty's commitment to timeless architecture and thoughtfully curated luxury.
             </p>
             
 
@@ -187,13 +165,17 @@ const Overview = ({ setIsOpen }) => {
               data-aos-duration="1000" 
               data-aos-delay="200"
             >
-              <div className="w-full md:w-1/2 border-b md:border-b-0 md:border-r border-[#d3be8a] flex flex-col justify-center bg-[#fdfbf7]" style={{ padding: '16px 24px' }}>
-                <p style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '4px', fontWeight: '600' }}>Land Parcel</p>
-                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4' }}>5.62 Acres</h3>
+              <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-[#d3be8a] flex flex-col justify-center bg-[#fdfbf7]" style={{ padding: '16px 24px' }}>
+                <p style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '4px', fontWeight: '600' }}>Total Project Area</p>
+                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4' }}>3.58 acres</h3>
               </div>
-              <div className="w-full md:w-1/2 flex flex-col justify-center bg-[#fdfbf7]" style={{ padding: '16px 24px' }}>
-                <p style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '4px', fontWeight: '600' }}>Floors</p>
-                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4' }}>G + 31 Storey</h3>
+              <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-[#d3be8a] flex flex-col justify-center bg-[#fdfbf7]" style={{ padding: '16px 24px' }}>
+                <p style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '4px', fontWeight: '600' }}>Units</p>
+                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4' }}>595</h3>
+              </div>
+              <div className="w-full md:w-1/3 flex flex-col justify-center bg-[#fdfbf7]" style={{ padding: '16px 24px' }}>
+                <p style={{ color: '#7a7a7a', fontSize: '11px', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '4px', fontWeight: '600' }}>Towers</p>
+                <h3 style={{ color: '#000242', fontSize: '14px', fontWeight: '700', textTransform: 'uppercase', lineHeight: '1.4' }}>6</h3>
               </div>
             </div>
 

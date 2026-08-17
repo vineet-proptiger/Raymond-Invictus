@@ -8,8 +8,8 @@ const units = [
   {
     type: "2 BHK",
     subtitle: "PREMIUM RESIDENCES",
-    size: "700 - 800 Sqft",
-    price: "₹ 2.59 Cr*",
+    size: "630 - 725 Sqft",
+    price: "2.70 Cr*",
     btnText: "GET DETAILS",
     features: [
       "Unlock Pricing & Floor Plans",
@@ -21,7 +21,7 @@ const units = [
   {
     type: "3 BHK",
     subtitle: "PREMIUM RESIDENCES",
-    size: "1100 - 1200 Sqft",
+    size: "905 - 1145 Sqft",
     price: "Ask For Price",
     btnText: "GET DETAILS",
     features: [
@@ -30,6 +30,19 @@ const units = [
       "Luxury Finishes",
     ],
     isPopular: true,
+  },
+  {
+    type: "4 BHK",
+    subtitle: "PREMIUM RESIDENCES",
+    size: "1360 - 1438 Sqft",
+    price: "Ask For Price",
+    btnText: "GET DETAILS",
+    features: [
+      "Unlock Pricing & Floor Plans",
+      "Premium Specifications",
+      "Luxury Finishes",
+    ],
+    isPopular: false,
   }
 ];
 
@@ -71,7 +84,7 @@ const Pricing = ({ setIsOpen }) => {
         </div>
 
         {/* Pricing Cards */}
-        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 max-w-[800px] mx-auto justify-items-center">
+        <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 max-w-[1100px] mx-auto justify-items-center">
 
           {units.map((unit, idx) => (
             <div

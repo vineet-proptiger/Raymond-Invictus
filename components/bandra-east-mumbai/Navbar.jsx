@@ -166,7 +166,7 @@ const Navbar = ({ setIsOpen }) => {
           display: flex !important;
           align-items: center !important;
           justify-content: center !important;
-          overflow: hidden !important;
+          overflow: visible !important;
         }
 
         .header_style2 .header_navigation2 li a,
@@ -221,7 +221,7 @@ const Navbar = ({ setIsOpen }) => {
           flex-shrink: 0 !important;
           display: block;
           object-fit: contain;
-          transform: scale(1.35) !important;
+          transform: scale(1.15) !important;
           mix-blend-mode: multiply !important;
           transition: none !important;
         }
@@ -410,9 +410,9 @@ const Navbar = ({ setIsOpen }) => {
             display: block !important;
             opacity: 1 !important;
             visibility: visible !important;
-            margin-left: 0 !important;
+            margin-left: 16px !important;
             transition: none !important;
-            transform: scale(1.15) !important;
+            transform: scale(0.9) !important;
             transform-origin: left center !important;
             object-fit: contain !important;
             mix-blend-mode: multiply !important;

@@ -446,7 +446,7 @@ const Hero = ({ setIsOpen }) => {
 
         {/* Subtitle */}
         <p className="hero-subtitle">
-          <span style={{ fontSize: '0.9em', fontWeight: 600, textTransform: 'none', color: '#fff' }}>At Bandra East By Raymond Realty</span>
+          <span style={{ fontSize: '0.9em', fontWeight: 600, textTransform: 'none', color: '#fff' }}>At Bandra East,Mumbai</span>
         </p>
         
         {/* Bullet Points */}
@@ -470,12 +470,12 @@ const Hero = ({ setIsOpen }) => {
 
         {/* Price Line */}
         <p className="hero-price-line" style={{ marginBottom: '0px' }}>
-          Spacious 2 &amp; 3 BHK Homes
+          Spacious 2, 3 &amp; 4 BHK Homes
           <span style={{ marginLeft: '6px', marginRight: '6px' }}>
             Price Starts
           </span>
           <span className="hero-price-amt" style={{ fontSize: 'clamp(18px, 2vw, 24px)', lineHeight: '1', verticalAlign: 'baseline' }}>
-            ₹ 2.59 Cr*
+            ₹ 2.70 Cr*
           </span>
         </p>
 

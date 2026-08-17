@@ -7,23 +7,23 @@ const plans = [
     label: '2 BHK Residence', 
     img: masterplanImages.bhk2,
     details: {
-        carpet: '700 - 800 Sqft'
+        carpet: '630 - 725 Sqft'
     }
   },
   { 
     label: '3 BHK Residence', 
     img: masterplanImages.bhk3 || masterplanImages.bhk45,
     details: {
-        carpet: '1100 - 1200 Sqft'
+        carpet: '905 - 1145 Sqft'
     }
   },
-  /* { 
-    label: '3 BHK Signature', 
-    img: masterplanImages.bhk45 || masterplanImages.bhk2,
+  { 
+    label: '4 BHK Residence', 
+    img: masterplanImages.bhk45 || masterplanImages.bhk3,
     details: {
-        carpet: '1522 - 1896 SqFt'
+        carpet: '1360 - 1438 Sqft'
     }
-  }, */
+  },
 ]
 
 const MasterPlan = ({ setIsOpen }) => {
@@ -83,7 +83,7 @@ const MasterPlan = ({ setIsOpen }) => {
           )}
 
           {activeTab === 'floor' && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[800px] mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1100px] mx-auto">
               {plans.map((plan, idx) => (
                 <div key={idx} className="bg-white rounded-md overflow-hidden shadow-[0_5px_15px_rgba(0,0,0,0.1)] transition-transform hover:-translate-y-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={idx * 100}>
                   <a onClick={() => setIsOpen && setIsOpen(true)} className="cursor-pointer block relative h-[260px] overflow-hidden group bg-[#fdfbf7] flex items-center justify-center p-4">

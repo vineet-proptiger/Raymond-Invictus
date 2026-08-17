@@ -6,14 +6,14 @@ const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 
 const locationLandmarks = [
-  { name: 'Eastern Expressway', dist: '3 mins' },
-  { name: 'Monorail Station', dist: '3 mins' },
-  { name: 'K.J. Somaiya Hospital & Research Center', dist: '5 mins' },
-  { name: 'Atal Setu', dist: '7 mins' },
-  { name: 'BKC', dist: '10 mins' },
-  { name: 'Ryan International School', dist: '15 mins' },
-  { name: 'Jio World Convention Centre', dist: '15 mins' },
-  { name: 'Dhirubhai Ambani International School', dist: '16 mins' },
+  { name: 'Western Express Highway', dist: '2 Mins' },
+  { name: 'Bandra Railway Station', dist: '3 Mins' },
+  { name: 'Jio World Drive', dist: '6 Mins' },
+  { name: 'Mindspace Business Parks', dist: '6 Mins' },
+  { name: 'International Airport', dist: '8 Mins' },
+  { name: 'Nita Ambani Cultural Centre', dist: '8 Mins' },
+  { name: 'Sion-Bandra Link Road', dist: '9 Mins' },
+  { name: 'WEH Metro Station', dist: '12 Mins' },
 ]
 
 const Location = () => {
@@ -137,7 +137,7 @@ const Location = () => {
               justifyContent: 'center',
             }}>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.510654828106!2d72.8743149!3d19.0412729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c90041044185%3A0x87b7927e3025cb1f!2sThe%20Address%20By%20GS%20-%20Bandra East!5e0!3m2!1sen!2sin!4v1786432775430!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.1365524732087!2d72.84998399999999!3d19.057732899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9000f2e5889%3A0x6cc1316e14263529!2sThe%20Address%20By%20GS%20-%20Bandra!5e0!3m2!1sen!2sin!4v1786942636948!5m2!1sen!2sin" 
                 className="w-full h-[400px] sm:h-[460px] lg:h-full min-h-[400px]" 
                 style={{ width: '100%', border: 0 }} 
                 allowFullScreen="" 

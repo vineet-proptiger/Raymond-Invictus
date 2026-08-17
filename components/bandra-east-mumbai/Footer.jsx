@@ -27,13 +27,13 @@ const Footer = () => (
         </div>
         <p style={{ fontSize: '15px', color: '#fff', fontFamily: 'var(--font-poppins), sans-serif', lineHeight: 1.8, marginBottom: '24px', textAlign: 'justify' }}
           data-aos="fade-in" data-aos-delay="100">
-          Raymond Realty presents Raymond The Address By GS, a premium development in Bandra East offering spacious 2 &amp; 3 BHK luxury homes. Spread across 5.62 acres, the project features 31-storey luxury towers with European-inspired architecture and timeless Art Deco elegance. Residents can enjoy an iconic 45,000 sq ft clubhouse with futuristic architecture and over 50 curated lifestyle amenities across 2 acres of recreation. With excellent connectivity via Metro, Monorail, MTHL, and Eastern Freeway, Raymond The Address perfectly exemplifies elevated city living.
+          A part of the prestigious Raymond Group, Raymond Realty is its real estate vertical that excels in developing ultra-luxurious residential & commercial spaces. Mainly spread across Thane, its lavish residences come equipped with extraordinary amenities, a classic ambiance, and lovely recreation spaces. Ten X Habitat and The Address By Gautam Singhania are 2 of its most luxe upcoming projects.
         </p>
         
         {/* RERA Block */}
         <div style={{ display: 'inline-block', background: 'rgba(255,255,255,0.05)', padding: '10px 24px', borderRadius: '4px', border: '1px solid rgba(255,255,255,0.1)' }}>
           <span style={{ fontFamily: F_SANS, fontSize: '14px', color: '#aaa' }}>RERA No :</span>
-          <strong style={{ fontFamily: F_JOST, fontSize: '15px', color: '#fff', letterSpacing: '0.04em' }}>PR1170002501878</strong>
+          <strong style={{ fontFamily: F_JOST, fontSize: '15px', color: '#fff', letterSpacing: '0.04em' }}>P51800054847</strong>
         </div>
       </div>
 

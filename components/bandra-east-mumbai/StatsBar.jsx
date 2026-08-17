@@ -1,7 +1,7 @@
 const stats = [
   { value: '92',    label: 'Acres Integrated Township' },
   { value: '₹65L*', label: 'Starting Price' },
-  { value: '2 & 3', label: 'BHK Configurations' },
+  { value: '2, 3 & 4', label: 'BHK Configurations' },
   { value: 'G+20',  label: 'Tower Floors Structure' },
 ]
 
