@@ -1,14 +1,6 @@
 import './raymond-oceanfront-monogram.css'
 import Script from 'next/script'
-import { Poppins } from 'next/font/google'
 import { CITY_DISPLAY, SITE_URL } from '../../lib/raymond-oceanfront-monogram/config'
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-poppins',
-  display: 'swap',
-})
 
 export const metadata = {
   metadataBase: new URL('https://raymondrealtyprelaunch.in'),
@@ -45,7 +37,7 @@ export const metadata = {
 
 export default function RaymondOceanfrontMonogramLayout({ children }) {
   return (
-    <div className={`${poppins.variable} raymond-oceanfront-monogram font-sans text-dark antialiased`}>
+    <div className="raymond-oceanfront-monogram font-sans text-dark antialiased">
       <link rel="icon" href="/raymond-oceanfront-monogram/favicon/fav.webp" type="image/webp" />
       <link rel="shortcut icon" href="/raymond-oceanfront-monogram/favicon/fav.webp" type="image/webp" />
       <link rel="apple-touch-icon" href="/raymond-oceanfront-monogram/favicon/fav.webp" />

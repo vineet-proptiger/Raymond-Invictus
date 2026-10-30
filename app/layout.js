@@ -1,5 +1,5 @@
 import './globals.css'
-import { Open_Sans, Montserrat, Cormorant_Garamond } from 'next/font/google'
+import { Open_Sans, Montserrat, Cormorant_Garamond, Poppins } from 'next/font/google'
 import localFont from 'next/font/local'
 import { GoogleTagManager } from '@next/third-parties/google'
 import Script from 'next/script'
@@ -15,6 +15,13 @@ const montserrat = Montserrat({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-jost',
+  display: 'swap',
+})
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-poppins',
   display: 'swap',
 })
 
@@ -45,7 +52,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleTagManager gtmId="GTM-575H8R87" />
-      <body className={`${openSans.variable} ${montserrat.variable} ${cormorant.variable} ${nephilm.variable} font-sans text-dark antialiased`}>
+      <body className={`${openSans.variable} ${montserrat.variable} ${cormorant.variable} ${poppins.variable} ${nephilm.variable} font-sans text-dark antialiased`}>
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-T4V4363T"
