@@ -26,6 +26,12 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/raymond-oceanfront-monogram`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // {
     //   url: `${baseUrl}/privacy-policy`,
     //   lastModified: new Date(),
